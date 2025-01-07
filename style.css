@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.521)), url(/12.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    color: red;
+}
+
+.logo h1:hover {
+    color: #e9e6e6;
+    cursor: pointer;
+}
+
+#MenuItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#MenuItems a {
+    text-decoration: none;
+    padding: 20px 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#MenuItems a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.header-content {
+    margin: 100px 0 0 120px;
+}
+
+.header-content h1{
+    color: #e9e6e6;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+.header-content h2{
+    color: #e9e6e6;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+.dev-name span {
+    color: red;
+}
+
+.col-2 button {
+    width: 150px;
+    height: 43px;
+    margin-right: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e9e6e6;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.col-2 button:hover {
+    color: red;
+    background-color: #e9e6e6;
+    border: none;
+    cursor: pointer;
+}
